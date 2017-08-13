@@ -13,8 +13,8 @@ import  os
 #设置应用信息
 baidu_server = "https://openapi.baidu.com/oauth/2.0/token?"
 grant_type = "client_credentials"
-client_id = "iHColMGU8Sg5ixGnL7HgtU6Q" #填写API Key
-client_secret = "38d6dd69e17b3a0154d4d0d159c1ca88" #填写Secret Key
+client_id = "" #填写API Key
+client_secret = "" #填写Secret Key
 
 #合成请求token的URL
 url = baidu_server+"grant_type="+grant_type+"&client_id="+client_id+"&client_secret="+client_secret
@@ -28,7 +28,7 @@ print token
 #设置音频属性，根据百度的要求，采样率必须为8000，压缩格式支持pcm（不压缩）、wav、opus、speex、amr
 VOICE_RATE = 8000
 WAVE_FILE = "test2.wav" #音频文件的路径
-USER_ID = "Johnqiu" #用于标识的ID，可以随意设置
+USER_ID = "" #用于标识的ID，可以随意设置
 WAVE_TYPE = "wav"
 
 #打开音频文件，并进行编码

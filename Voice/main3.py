@@ -12,8 +12,8 @@ import json
 ## get access token by api key & secret key  
   
 def get_token():  
-    apiKey = "iHColMGU8Sg5ixGnL7HgtU6Q"  
-    secretKey = "38d6dd69e17b3a0154d4d0d159c1ca88"  
+    apiKey = ""  
+    secretKey = ""  
   
     auth_url = "https://openapi.baidu.com/oauth/2.0/token?grant_type=client_credentials&client_id=" + apiKey + "&client_secret=" + secretKey;  
   

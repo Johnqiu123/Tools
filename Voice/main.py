@@ -4,9 +4,6 @@ Created on Sat Aug 12 16:26:31 2017
 
 @author: Administrator
 
-App ID: 10000105
-API Key: iHColMGU8Sg5ixGnL7HgtU6Q
-Secret Key: 38d6dd69e17b3a0154d4d0d159c1ca88
 """
 
 # 引入Speech SDK
@@ -19,9 +16,9 @@ def get_file_content(filePath):
 
 if __name__=="__main__":
     # 定义常量
-    APP_ID = '10000105'
-    API_KEY = 'iHColMGU8Sg5ixGnL7HgtU6Q'
-    SECRET_KEY = '38d6dd69e17b3a0154d4d0d159c1ca88'
+    APP_ID = ''
+    API_KEY = ''
+    SECRET_KEY = ''
     
     filepath = "test31.wav"
     print filepath
